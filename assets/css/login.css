@@ -1,0 +1,65 @@
+.visible {
+  display: block;
+  -webkit-transition: opacity 1000ms linear;
+  transition: display 1000ms linear;
+  background-color: white;
+  text-align: center; }
+  .visible h3 {
+    color: red;
+    margin-bottom: 5px; }
+  .visible button {
+    width: fit-content;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 0.5rem;
+    display: block;
+    background-color: #49b6e1;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px; }
+  .visible button:hover {
+    cursor: pointer;
+    background-color: #009ad7;
+    color: white; }
+
+.invisible {
+  display: none; }
+
+#request-to-join {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 13%; }
+
+#login-form {
+  width: 24%;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px; }
+  #login-form input:focus {
+    outline: none; }
+  #login-form input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 1rem; }
+  #login-form button, #login-form a {
+    width: fit-content;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    background-color: #1c1717;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 0.8rem; }
+  #login-form button:hover, #login-form a:hover {
+    cursor: pointer;
+    background-color: black; }
+  #login-form #join {
+    margin-top: 1rem; }
+  #login-form #new-entry {
+    margin-top: -10px; }

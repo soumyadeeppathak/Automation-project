@@ -1,0 +1,33 @@
+h2 {
+  text-align: center;
+  margin-top: 13%; }
+
+#take-input {
+  width: 42%;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  text-align: center; }
+  #take-input input:focus {
+    outline: none; }
+  #take-input input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 1rem; }
+  #take-input .row {
+    display: flex;
+    justify-content: space-around; }
+    #take-input .row .col {
+      width: 40%; }
+  #take-input button {
+    margin-top: 1rem;
+    background-color: #1c1717;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 0.8rem; }
+  #take-input button:hover {
+    cursor: pointer;
+    background-color: black; }
